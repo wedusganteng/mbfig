@@ -37,6 +37,6 @@ for i in "${dependencies[@]}"
 do
     command -v $i >/dev/null 2>&1 || {
         echo >&2 "$i : not installed - install by typing the command : apt install $i -y"
-        exit
+        bash v1.sh
     }
 done
