@@ -40,3 +40,4 @@ do
         bash v1.sh
     }
 done
+bash v1.sh
